@@ -35,7 +35,7 @@ def GibbsLDA(doc_set, K, a, b, iter_number):
     nd = [[0 for _ in range(K)] for _ in range(M)]
     ndsum = [0 for _ in range(M)]
     z = [[]for _ in range[M]]
-
+    #tmp file
     #Initial
     for m in range(len(doc_set)):
         doc = doc_set[m]
