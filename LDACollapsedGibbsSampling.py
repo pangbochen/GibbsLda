@@ -4,7 +4,7 @@ __author__ = 'pangbochen'
 import numpy as np
 import random
 import cumulative
-
+import pandas
 def GibbsLDA(doc_set, K, a, b, iter_number):
     '''
     :param doc_set:            documents
